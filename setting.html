@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="setting.css">
+</head>
+<body>
+
+    <!-- Counter Page -->
+    <div id="counterPage">
+
+        <div class="top-icons">
+            <button class="icon-btn" title="Info">i</button>
+            <button class="icon-btn" id="settingsBtn" title="Settings">⚙</button>
+            <button class="icon-btn" id="resetBtn" title="Reset">↻</button>
+        </div>
+
+        <div id="counter">0</div>
+
+        <button class="plus-btn" id="increaseBtn">+</button>
+        <button class="minus-btn" id="decreaseBtn">−</button>
+
+    </div>
+
+    <!-- Settings Page -->
+    <div id="settingsPage">
+
+        <button class="close-btn" id="closeBtn">&times;</button>
+
+        <div class="settings-container">
+
+            <!-- Set Count -->
+            <div class="card">
+                <div class="row">
+                    <label>Set count =</label>
+                    <input type="number" id="setCountInput" value="0">
+                </div>
+            </div>
+
+            <!-- Limits -->
+            <div class="card">
+                <div class="toggle-row">
+                    <span>Limits Off / On</span>
+                    <label class="switch">
+                        <input type="checkbox" id="limitToggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Color Palette -->
+            <div class="card">
+                <div class="palette">
+                    <button class="color" data-color="#000000" style="background:#000"></button>
+                    <button class="color" data-color="#f4f4f4" style="background:#f4f4f4"></button>
+                    <button class="color" data-color="#ff1493" style="background:#ff1493"></button>
+                    <button class="color" data-color="#b455d4" style="background:#b455d4"></button>
+
+                    <button class="color" data-color="#8a2be2" style="background:#8a2be2"></button>
+                    <button class="color" data-color="#7089a8" style="background:#7089a8"></button>
+                    <button class="color" data-color="#11c5c9" style="background:#11c5c9"></button>
+                    <button class="color" data-color="#30b2ac" style="background:#30b2ac"></button>
+
+                    <button class="color" data-color="#4666e5" style="background:#4666e5"></button>
+                    <button class="color" data-color="#2d87ea" style="background:#2d87ea"></button>
+                    <button class="color" data-color="#1cb1e6" style="background:#1cb1e6"></button>
+                    <button class="color active" data-color="#4f88b8" style="background:#4f88b8"></button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="setting.js"></script>
+</body>
+</html>
