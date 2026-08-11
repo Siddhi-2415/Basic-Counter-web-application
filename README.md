@@ -5,7 +5,7 @@ A simple and responsive counter web application built using **HTML, CSS, and Jav
 ##Live Demo
 # Basic Counter Web Application
 
-[![Live Demo](https://(https://siddhi-2415.github.io/Basic-Counter-web-application/)
+[![Live Demo](https://Basic-Counter-web-application/)
 
 A simple and responsive counter web application built using HTML, CSS, and JavaScript.
 
