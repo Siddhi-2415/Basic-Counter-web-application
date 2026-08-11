@@ -2,6 +2,13 @@
 
 A simple and responsive counter web application built using **HTML, CSS, and JavaScript**.
 
+##Live Demo
+# Basic Counter Web Application
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://siddhi-2415.github.io/Basic-Counter-web-application/)
+
+A simple and responsive counter web application built using HTML, CSS, and JavaScript.
+
 ## Features
 
 * Increase the counter value
