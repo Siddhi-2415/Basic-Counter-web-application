@@ -33,7 +33,3 @@ Basic-Counter-web-application/
 2. Open `index.html` in your web browser.
 3. Use the **+**, **-**, and **Reset** buttons to interact with the counter.
 
-## Author
-
-**Siddhi Bhosale**
-Python Full Stack Developer | Final Year B.Tech Student
