@@ -28,8 +28,11 @@ Basic-Counter-web-application/
 └── README.md
 
 ## How to Run
-
 1. Download or clone the repository.
 2. Open `index.html` in your web browser.
 3. Use the **+**, **-**, and **Reset** buttons to interact with the counter.
+
+## Live Demo
+click on below link
+https://basic-counter-web-application.vercel.app/
 
